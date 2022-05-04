@@ -5,7 +5,7 @@
 .EXAMPLE
 
 .NOTES
-  Name:  Test-MyInvocationTemplateForProfileTools.ps1
+  Name:  Invoke-GitSyncScript.ps1
   Author:  Travis Logue
   Version History:  1.1 | 2022-05-03 | Initial Version
   Dependencies:  
