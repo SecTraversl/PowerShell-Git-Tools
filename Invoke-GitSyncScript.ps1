@@ -15,12 +15,13 @@
   .
 #>
 function Invoke-GitSyncScript {
-    [CmdletBinding()]
-    param (
-      [Parameter()]
-      [string]
-      $Directory = '.'
-    )
+  [Alias('GitSyncScript')]
+  [CmdletBinding()]
+  param (
+    [Parameter()]
+    [string]
+    $Directory = '.'
+  )
     
   begin {}
   
